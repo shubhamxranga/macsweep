@@ -8,7 +8,7 @@ No cloud. No telemetry. No subscriptions. Just clean your Mac.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-green.svg)](https://python.org)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-orange.svg)](https://buymeacoffee.com/shubhamxranga)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-orange.svg)](https://buymeacoffee.com/shubhamranga)
 
 ---
 
@@ -105,7 +105,7 @@ pytest tests/ -v
 
 If MacSweep saved you from a $40/year subscription, consider buying me a coffee:
 
-**[☕ Buy Me a Coffee](https://buymeacoffee.com/shubhamxranga)**
+**[☕ Buy Me a Coffee](https://buymeacoffee.com/shubhamranga)**
 
 ---
 
