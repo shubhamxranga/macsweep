@@ -25,7 +25,7 @@ python main.py
 
 ---
 
-## 🔥 Features
+## Features
 
 ### `1` Storage Scanner
 - Recursive directory analysis using `os.scandir` (fast on APFS)
@@ -82,7 +82,7 @@ macsweep/
 
 ---
 
-## 🧪 Run Tests
+##  Run Tests
 
 ```bash
 source .venv/bin/activate
