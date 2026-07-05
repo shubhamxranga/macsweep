@@ -1,0 +1,151 @@
+# MacSweep — Default File Organization Rules
+# Customize these rules to control how files are sorted.
+# Each rule matches file extensions and assigns a destination folder.
+
+rules:
+  - name: Images
+    match:
+      - "*.jpg"
+      - "*.jpeg"
+      - "*.png"
+      - "*.gif"
+      - "*.webp"
+      - "*.heic"
+      - "*.heif"
+      - "*.svg"
+      - "*.bmp"
+      - "*.tiff"
+      - "*.ico"
+      - "*.raw"
+      - "*.cr2"
+    dest: "Images/"
+
+  - name: Videos
+    match:
+      - "*.mp4"
+      - "*.mov"
+      - "*.avi"
+      - "*.mkv"
+      - "*.webm"
+      - "*.flv"
+      - "*.wmv"
+      - "*.m4v"
+    dest: "Videos/"
+
+  - name: Audio
+    match:
+      - "*.mp3"
+      - "*.wav"
+      - "*.flac"
+      - "*.aac"
+      - "*.ogg"
+      - "*.m4a"
+      - "*.wma"
+      - "*.aiff"
+    dest: "Audio/"
+
+  - name: Documents
+    match:
+      - "*.pdf"
+      - "*.doc"
+      - "*.docx"
+      - "*.xls"
+      - "*.xlsx"
+      - "*.ppt"
+      - "*.pptx"
+      - "*.txt"
+      - "*.md"
+      - "*.rtf"
+      - "*.csv"
+      - "*.pages"
+      - "*.numbers"
+      - "*.keynote"
+    dest: "Documents/"
+
+  - name: Code
+    match:
+      - "*.py"
+      - "*.js"
+      - "*.ts"
+      - "*.jsx"
+      - "*.tsx"
+      - "*.go"
+      - "*.rs"
+      - "*.java"
+      - "*.c"
+      - "*.cpp"
+      - "*.h"
+      - "*.hpp"
+      - "*.swift"
+      - "*.kt"
+      - "*.rb"
+      - "*.php"
+      - "*.sh"
+      - "*.bash"
+      - "*.zsh"
+      - "*.sql"
+      - "*.r"
+      - "*.scala"
+      - "*.lua"
+      - "*.vim"
+      - "*.json"
+      - "*.yaml"
+      - "*.yml"
+      - "*.toml"
+      - "*.xml"
+      - "*.html"
+      - "*.css"
+    dest: "Code/"
+
+  - name: Archives
+    match:
+      - "*.zip"
+      - "*.tar"
+      - "*.gz"
+      - "*.tgz"
+      - "*.bz2"
+      - "*.xz"
+      - "*.rar"
+      - "*.7z"
+      - "*.dmg"
+      - "*.iso"
+      - "*.pkg"
+      - "*.deb"
+    dest: "Archives/"
+
+  - name: Installers
+    match:
+      - "*.app"
+      - "*.exe"
+      - "*.msi"
+    dest: "Installers/"
+
+  - name: Fonts
+    match:
+      - "*.ttf"
+      - "*.otf"
+      - "*.woff"
+      - "*.woff2"
+    dest: "Fonts/"
+
+  - name: Data
+    match:
+      - "*.db"
+      - "*.sqlite"
+      - "*.sqlite3"
+      - "*.parquet"
+      - "*.feather"
+      - "*.hdf5"
+      - "*.h5"
+      - "*.pkl"
+      - "*.pickle"
+      - "*.npy"
+      - "*.npz"
+    dest: "Data/"
+
+# Set to true to sort into YYYY-MM/ subdirectories within each category
+date_mode: false
+
+# Minimum file age (in seconds) before auto-organizing in watch mode
+# Prevents organizing files that are still being downloaded
+watcher_min_age_seconds: 5
