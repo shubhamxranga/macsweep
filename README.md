@@ -66,17 +66,17 @@ python main.py
 
 ```
 macsweep/
-├── main.py                  # Entry point
-├── demo.py                  # Headless demo (tests all features)
-├── requirements.txt         # Dependencies (textual, rich, pyyaml)
+├── main.py                  
+├── demo.py                  
+├── requirements.txt         
 ├── app/
-│   ├── macsweep_app.py      # App shell, routing, theme
-│   ├── screens/             # TUI screens (scanner, duplicates, organizer, cleaner)
-│   ├── widgets/             # Reusable widgets (size bar, confirm modal)
-│   ├── core/                # Engines (scanner, duplicates, organizer, cleaner, history)
-│   └── config/              # Settings + default_rules.yaml
-├── tests/                   # Automated test suite
-├── LICENSE                  # MIT
+│   ├── macsweep_app.py      
+│   ├── screens/             
+│   ├── widgets/             
+│   ├── core/                
+│   └── config/              
+├── tests/                   
+├── LICENSE                  
 └── .gitignore
 ```
 
@@ -112,3 +112,4 @@ If MacSweep saved you from a $40/year subscription, consider buying me a coffee:
 ## 📄 License
 
 MIT © [Shubham Ranga](https://github.com/shubhamxranga)
+X/Twitter: x.com/ShubhamRanga_
