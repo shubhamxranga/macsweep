@@ -114,4 +114,4 @@ If MacSweep saved you from a $40/year subscription, consider buying me a coffee:
 MIT © [Shubham Ranga](https://github.com/shubhamxranga)
 
 
-X/Twitter: x.com/ShubhamRanga_
+[X/Twitter] (x.com/ShubhamRanga_)
